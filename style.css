@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,600;0,700;1,600&display=swap');
+*{
+    font-family: 'Open Sans', sans-serif;
+}
+.bannerBgImage {
+    height:100vh;
+    background: url("/images/BannerImage.jpg");
+    background-size: cover;
+    position: relative;
+}
+
+.bannerText {
+    text-align: left;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    tranform: translate(-50%, -50%);
+    color: white;
+}
+.bannerTitle {
+    font-size: 4rem;
+}
+.bannerDesc {
+    font-size: 2rem;
+}
+
+.card{
+    cursor: pointer;
+}
+
+.card:hover{
+    background-color: #d64878;
+    border: 3px solid #93c62e;
+}
+
+.bIcon{
+    width: 100%;
+    text-align: center;
+    font-size: 40px;
+}
+
+.img-fluid:hover{
+    border: 3px solid yellowgreen;
+}
+
+.card-img-top{
+    height: 50vh;
+}
